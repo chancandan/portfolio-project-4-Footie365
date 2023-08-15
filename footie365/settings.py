@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-chancandan-portfoliopro-k67yviaamsh.ws-eu103.gitpod.io', 'footie365.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['8000-chancandan-portfoliopro-k67yviaamsh.ws-eu103.gitpod.io', 'footie365-3519eaeedcde.herokuapp.com', 'localhost']
 
 
 # Application definition
