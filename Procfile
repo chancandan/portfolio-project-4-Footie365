@@ -1,0 +1,1 @@
+web: gunicorn footie365.wsgi
