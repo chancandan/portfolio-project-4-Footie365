@@ -16,3 +16,7 @@ colours used:
 #121212 (a dark grey / light black)
 #909090 (a grey)
 #F6F2F2 (a baige colour)
+
+
+
+Images taken from BBC Sport's website. Match review content also taken from BBC sport but rewritten by myself for the purposes of this project.
