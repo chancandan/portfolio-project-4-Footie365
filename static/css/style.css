@@ -1,5 +1,5 @@
 body {
-    background-color: #F6F2F2;
+    background-color: #F9FAFC;
 }
 
 .brand {
@@ -26,7 +26,7 @@ body {
 }
 
 .main-bg {
-    background-color: #F6F2F2;
+    background-color: #F9FAFC;
 }
 
 .card {
@@ -93,7 +93,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #F6F2F2;
+    color: #121212;
 }
 
 .post-title {
@@ -107,18 +107,18 @@ body {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #909090;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #909090;
 }
 
 .link {
-    color: #23BBBB;
+    color: #909090;
     text-decoration: none;
 }
 
