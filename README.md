@@ -20,3 +20,6 @@ colours used:
 
 
 Images taken from BBC Sport's website. Match review content also taken from BBC sport but rewritten by myself for the purposes of this project.
+
+
+Logo created with Designevo's Logo generator at https://www.designevo.com/apps/logo/?name=black-and-white-football-icon
