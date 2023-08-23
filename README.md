@@ -152,7 +152,17 @@ When the user is finished on the site they can choose to log themselves out of t
 ![Admin Panel](readme-docs/site-images/adminpanel.jpg)
 </details>
 
+###############
 
+Fill out this section later
+
+### Create Comment
+
+<details>
+<summary>Create Comment</summary>
+
+![Create Meal](readme-docs/site-images/create-comment.png)
+</details>
 
 
 
