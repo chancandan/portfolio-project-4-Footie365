@@ -166,6 +166,7 @@ Fill out this section later
 
 
 
+#######################################
 
 
 
@@ -183,8 +184,21 @@ Fill out this section later
 
 
 
+#############################################
 
-
+# Deployment
+## Steps to deploy the site using Heroku:
+- After having installed the foloowing; psycopg2, dj3-cloudinary-storage, dj_database_url and gunicorn
+- Use the Heroku dashboard to select "New" and then click to "Create a new app"
+  - Must create app with a new unique name - this then needs to be added in the project settings to allow hosts
+  - Select your specific region
+  - Then click to "Create app"
+- Next, go to the Resources tab:
+  - In the add-ons search bar search for 'postgres' and then select 'Heroku Postgres'
+  - Then click to 'Submit order form'
+- Next go to the settings tab
+- In the 'Config Vars' section select 'Reveal Config Vars'
+- P
 
 
 
