@@ -13,6 +13,27 @@ Users already registered can login upon landing on the homepage, which is a tidy
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Colour theme is from shutterstock
 https://www.shutterstock.com/blog/sports-color-palettes-branding-marketing
 colours used:
