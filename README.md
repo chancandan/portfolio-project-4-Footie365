@@ -144,6 +144,14 @@ When the user is finished on the site they can choose to log themselves out of t
 
 ## Admin Panel
 
+### Admin Panel
+
+<details>
+<summary>Admin Panel</summary>
+
+![Admin Panel](readme-docs/site-images/adminpanel.jpg)
+</details>
+
 
 
 
