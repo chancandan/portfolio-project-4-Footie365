@@ -127,7 +127,13 @@ When a user creates an account they are automatically taken to thehome page wher
 
 ### Login Page
 
+<details>
+<summary>Login Page</summary>
 
+![Login](readme-docs/site-images/sign.jpg)
+</details>
+
+The login page is
 
 
 
