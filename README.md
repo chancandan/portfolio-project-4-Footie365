@@ -30,7 +30,16 @@ Footie365's live sit can be found here : [Footie365](https://     )
 
 ### User Stories
 
+- As a Site User I can view the home page where I can see the site's goal and also be encouraged to sign up
+- As a Site User I can register for an account so that I can then log in to gain access to the site's features
+- As a Site User I can log in and therefore I can gain access to the site's features
+- As a Site User I can Log Out meaning someone else log in on my computer, change accounts or leave myself signed out on public devices
+- As a Site User I can view the Home page when logged in so that I can view recent match reports
+- As a Site User I can navigate betweens the different pages of blog reports
 
+- As a Site Administrator I can view administrator features so that I can add, edit and remove match reportson  the site
+- As a Site Administrator I can view the blog CRUD forms so that I can create, add, edit and remove reports from the site
+- As a Developer I can create a model for the match report database so that it is available for administrators to add new match blog reports and reviews
 
 
 
