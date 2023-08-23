@@ -116,7 +116,18 @@ These pages are also repsonsive and will change to suit the user's device screen
 ### Registration Page
 
 <details>
+<summary>Registration Page</summary>
+
+![Registration](readme-docs/site-images/signup.jpg)
 </details>
+
+Through the call to action 'Sign Up' link on the navbar users can access the registration page, where they can create an account. The sign up form has been kept as simple as possible so as not to discourage users from signing up. The user is asked to create a username, a password which they must repeat to make sure they have entered it correctly, and also an optional email address.
+
+When a user creates an account they are automatically taken to thehome page where they can seee that they are now logged in as the login option will have changed to logout.
+
+### Login Page
+
+
 
 
 
