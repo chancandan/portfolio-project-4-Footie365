@@ -18,7 +18,7 @@ Footie365's live sit can be found here : [Footie365](https://     )
 - [User Experience](#user-experience)
 - [Features](#features)
   - [General](#general)
-  - [Site Pages](#site-pages)
+  - [Website Pages](#Website-pages)
   - [Registration](#accounts)
 - [Design](#design)
 - [Technologies Used](#technologies-used)
@@ -54,6 +54,30 @@ Footie365's live sit can be found here : [Footie365](https://     )
 ![Navbar](readme-docs/site-images/admin-navbar.jpg)
 </details>
 
+The site's navigation bar is featured across all pages.
+
+The navigation bar displays "Home", "Login" and "Sign Up" for all unregistered visitors to the site as well as to registered members who are logged out. When viewing the site on a smaller screen such as on a mobile, the navibar collapses froma  list to a hamburger menu which when clicked toggles the list in and out of view for the user.
+
+When a regsitered user is logged into the site they will see both the home page and logged out option on the navbar.
+
+This narbar is based on "navbar-expand-lg navbar-light bg-white" from Bootstrap.
+
+The logo can also be seen on the navbar and when clicked from any part of the site will always bring the user quickley back to the home page, as it's an index page link. This logo was made with Designevo's Logo generator, details of which are discussed further down this report.
+
+### Footer
+
+<details>
+<summary>Footer</summary>
+
+![Footer](readme-docs/site-images/footer.jpg)
+
+Just like the navbar, the footer is featured across all of the site's pages. It contains social media icons which are also clickable links to their respected site's homepage. When Footie365 moves on from the MVP stage these will take the user to proper social media pages of Footie365. Here in the footer the user can also see that the site is currently just for educational purposes only.
+
+## Website Pages
+
+
+
+</details>
 
 
 
@@ -75,9 +99,7 @@ Footie365's live sit can be found here : [Footie365](https://     )
 
 
 
-
-
-
+#########################################################
 
 
 Colour theme is from shutterstock
