@@ -42,6 +42,19 @@ Footie365's live sit can be found here : [Footie365](https://     )
 - As a Developer I can create a model for the match report database so that it is available for administrators to add new match blog reports and reviews
 
 
+# Features
+## General
+### Navigation Bar
+
+<details>
+<summary>Navbar</summary>
+
+![Navbar](readme-docs/site-images/navbar.jpg)
+![Navbar](readme-docs/site-images/navbar-loggedin.jpg)
+![Navbar](readme-docs/site-images/admin-navbar.jpg)
+</details>
+
+
 
 
 
