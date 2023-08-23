@@ -70,14 +70,43 @@ The logo can also be seen on the navbar and when clicked from any part of the si
 <summary>Footer</summary>
 
 ![Footer](readme-docs/site-images/footer.jpg)
+</details>
+
 
 Just like the navbar, the footer is featured across all of the site's pages. It contains social media icons which are also clickable links to their respected site's homepage. When Footie365 moves on from the MVP stage these will take the user to proper social media pages of Footie365. Here in the footer the user can also see that the site is currently just for educational purposes only.
 
 ## Website Pages
 
 
+### Index Page
 
+<details>
+<summary>Home Page Unregistered</summary>
+
+![Index Page](readme-docs/site-images/index.jpg)
 </details>
+
+<details>
+<summary>Home Page Logged In</summary>
+
+![Index Page](readme-docs/site-images/home.png)
+</details>
+
+Depending on the type of user viewing the index page it can have two different states (Logged in / Logged Out).
+
+New users to the site, and users who are logged out, will see a batch of card blogs on display on the home page. These are neatly and clearly laid out and the user can instantly recognise what kind of a site Footie365 is upon landing on the home page, incase they hadn't already gussed form the site's name and the images used for each blog report on the home page. Layered over these images is a container banner stating who wrote the blog and underneath the image is the match's scoreline for both teams and this is a clickable link which will take the user to a new page where they can read the full match report.
+
+For users who are registered and are logged in they can interact with this match report content by liking or unliking the blog reports. Logged in users can also interact with other users here by commenting on blog reports.
+
+All of these pages as well as the home page are responsive and will displays different amounts of match report cards on screen depending on the size of the user's device, such as 3 blog reports on a wide desktop screen or 1 single report one underneath another ona  smaller mobile device screen.
+
+### Individual Match Blog Reports
+
+
+
+
+
+
 
 
 
