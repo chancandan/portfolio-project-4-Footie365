@@ -96,11 +96,27 @@ Depending on the type of user viewing the index page it can have two different s
 
 New users to the site, and users who are logged out, will see a batch of card blogs on display on the home page. These are neatly and clearly laid out and the user can instantly recognise what kind of a site Footie365 is upon landing on the home page, incase they hadn't already gussed form the site's name and the images used for each blog report on the home page. Layered over these images is a container banner stating who wrote the blog and underneath the image is the match's scoreline for both teams and this is a clickable link which will take the user to a new page where they can read the full match report.
 
-For users who are registered and are logged in they can interact with this match report content by liking or unliking the blog reports. Logged in users can also interact with other users here by commenting on blog reports.
-
 All of these pages as well as the home page are responsive and will displays different amounts of match report cards on screen depending on the size of the user's device, such as 3 blog reports on a wide desktop screen or 1 single report one underneath another ona  smaller mobile device screen.
 
 ### Individual Match Blog Reports
+
+<details>
+<summary>Match Reports</summary>
+
+![Match Reports](readme-docs/site-images/matchreports.jpg)
+</details>
+
+When a iser clicks ona  match title on the home page they will be taken to a new page with the full blog report write up for that specific game. 
+
+For users who are registered and are logged in they can interact with this match report content by liking or unliking the blog reports. Logged in users can also interact with other users here by commenting on blog reports.
+These pages are also repsonsive and will change to suit the user's device screen width. All content is contered to keep a good design look to the site.
+
+## Accounts
+
+### Registration Page
+
+<details>
+</details>
 
 
 
