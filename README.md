@@ -133,7 +133,16 @@ When a user creates an account they are automatically taken to thehome page wher
 ![Login](readme-docs/site-images/sign.jpg)
 </details>
 
-The login page is
+The user can find the log in page by clicking the link in the navbar. The user will be presented with a simple form requesting their username and password.
+
+After the user successfully logs in they will be taken back to the index page again where they can choose which match report blog they would like to view.
+
+![Logout](readme-docs/site-images/logout.jpg)
+</details>
+
+When the user is finished on the site they can choose to log themselves out of the site with the call to action link button on the navbar "log out". This will bring the user to a log out form where after logging out successfully they will be once again brought back to the home page.
+
+## Admin Panel
 
 
 
