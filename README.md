@@ -169,9 +169,28 @@ Fill out this section later
 #######################################
 
 
+######################################
 
+# Technologies Used
 
-
+- [HTML5](https://en.wikipedia.org/wiki/HTML5): mark-up language used.
+- [CSS3](https://en.wikipedia.org/wiki/CSS): For website styling.
+- [JavaScript](https://www.javascript.com/): Programming language used.
+- [Python 3](https://www.python.org/): Programming language used.
+- [Django](https://www.djangoproject.com/) Framework
+  - [Django Crispy Forms](https://pypi.org/project/django-crispy-forms/): used for forms.
+  - [Crispy Bootstrap5](https://pypi.org/project/crispy-bootstrap5/): Bootstrap5 template pack in crispy forms.
+- [Bootstrap](https://getbootstrap.com/): Used for styling.
+- [Cloudinary](https://cloudinary.com/): Used tostore static and media files.
+- [GIT](https://git-scm.com/): Used for version control.
+- [GitHub](https://github.com/): Used for host repository.
+- [Gitpod](https://www.gitpod.io/): Online IDE used.
+- [Heroku](https://www.heroku.com): Cloud app platform used.
+- [Google Fonts](https://fonts.google.com/): Used to import fonts.
+- [Font Awesome](https://fontawesome.com/): also used to import icons.
+- [Balsamiq](https://balsamiq.com/): Application used to create wireframes.
+- [Diagrams.net](https://www.diagrams.net/): used for Entity Relationship Diagram.
+- [Greenshot](https://getgreenshot.org/): used for screenshots used in this readme. 
 
 
 
