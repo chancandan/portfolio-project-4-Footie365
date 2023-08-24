@@ -192,18 +192,11 @@ Fill out this section later
 - [Diagrams.net](https://www.diagrams.net/): used for Entity Relationship Diagram.
 - [Greenshot](https://getgreenshot.org/): used for screenshots used in this readme. 
 
+# Testing
 
+To read about the testing carried out for this site, please click the below link;
 
-
-
-
-
-
-
-
-
-
-#############################################
+[Link to TESTING.md](TESTING.md)
 
 # Deployment
 ## Steps to deploy the site using Heroku:
