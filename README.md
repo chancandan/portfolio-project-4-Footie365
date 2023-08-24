@@ -200,7 +200,7 @@ To read about the testing carried out for this site, please click the below link
 
 # Deployment
 ## Steps to deploy the site using Heroku:
-- After having installed the foloowing; psycopg2, dj3-cloudinary-storage, dj_database_url and gunicorn
+- After having installed the following; psycopg2, dj3-cloudinary-storage, dj_database_url and gunicorn
 - Use the Heroku dashboard to select "New" and then click to "Create a new app"
   - Must create app with a new unique name - this then needs to be added in the project settings to allow hosts
   - Select your specific region
@@ -209,8 +209,127 @@ To read about the testing carried out for this site, please click the below link
   - In the add-ons search bar search for 'postgres' and then select 'Heroku Postgres'
   - Then click to 'Submit order form'
 - Next go to the settings tab
-- In the 'Config Vars' section select 'Reveal Config Vars'
-- P
+  - In the 'Config Vars' section select 'Reveal Config Vars'
+  - Add Heroku Postgres and set the DATABASE_URL and slo copy to the project
+  - Create a SECRET_KEY and add a new config var for this
+  - From Cloudinary's dashboard, copy the API Environment variable and add a new config var for CLOUDINARY_URL remembering to remove "CLOUDINARY_URL" from this
+  - Add another config var DISABLE_COLLECTSTATIC witha  value of 1 - this will have to be once again removed before deployment
+- For the project's environemnt variables;
+  - In the top level directory create a new env.py file
+  - In this en.py file;
+    - Import os
+    - Add 'os.environ["DATABASE_URL"] = "From the Heroku app paste the DATABASE_URL here"'
+    - Add 'os.environ["SECRET_KEY"] = "New secret key should be pasted here"'
+    - Add 'os.environ["CLOUDINARY_URL"] = "Paste the same  CLOUDINARY_URL from the Heroku app here"'
+  ```
+  import os
+
+  os.environ['DATABASE_URL'] = 'postgres://exampledatabaseurl'
+  os.environ['SECRET_KEY'] = 'examplesecretkey'
+  os.environ['CLOUDINARY_URL'] = 'cloudinary://examplecloudinaryurl'
+  ```
+  - If not already present, create a .gitignore file and add env.py to it
+
+- In your project, in settings.py:
+  - Import os
+  - Import dj_database_url
+  - if os.path.isfile('env.py'):
+	import env
+  ```
+  import os
+  import dj_database_url
+  if os.path.isfile('env.py'):
+      import env
+  ```
+  - Replace the insecure secret key with "SECRET_KEY = os.environ.get('SECRET_KEY')"
+  ```
+  SECRET_KEY = os.environ.get('SECRET_KEY')
+  ```
+  - Link new database by commenting out old DATABASES section and adding:
+	DATABASES = {
+			'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+			}
+  ```
+  DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+  ```
+  - Add Heroku to the allowed hosts: "ALLOWED_HOSTS = ['the_app_name_from_heroku.herokuapp.com']
+  ```
+  ALLOWED_HOSTS = ['example-heroku-app-name.herokuapp.com', 'localhost']
+  ```
+  - Add 'cloudinary_storage' (above 'django.contrib.staticfiles') and 'cloudinary' (below) to INSTALLED_APPS
+  ```
+  ...
+  'cloudinary_storage',
+  'django.contrib.staticfiles',
+  'cloudinary',
+  ...
+  ```
+  - Setup Cloudinary to store static and media files
+   ```
+    STATIC_URL = '/static/'
+	STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+	STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+	STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+	MEDIA_URL = '/media/'
+	DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+  ```
+  - Run 'python3 manage.py collectstatic' to collect static files
+- In your project:
+  - Create a Procfile in the top level directory and add 'web: gunicorn project_name.wsgi' to tell 
+  ```
+  web: gunicorn project_name.wsgi
+  ```
+  - Create a requirements file with 'pip3 freeze --local > requirements.txt' for Heroku to install required packages
+  ```
+  pip3 freeze --local > requirements.txt
+  ```
+  - Make migrations with 'python3 manage.py migrate'
+  ```
+  python3 manage.py migrate
+  ```
+  - Commit and push to GitHub
+- Prior to final deployment:
+  - Set DEBUG = False in project settings.py
+  - Remove DISABLE_COLLECTSTATIC config var from Heroku
+- Go to the Deploy tab:
+  - Select GitHub and confirm connection to GitHub account
+  - Search for the repository and click "Connect"
+  - Scroll down to the deploy options
+  - Select automatic deploys if you would like automatic deployment with each new push to the GitHub repository
+  - In manual deploy, select which branch to deploy and click "Deploy Branch"
+  - Heroku will start building the app
+- The link to the app can be found at the top of the page by clicking "Open app"
+
+Footie365's live site can be found here: [Footie365](https://footie365-3519eaeedcde.herokuapp.com/)
+
+## Steps to clone site:
+- In the GitHub repository, click the "Code" button.
+- Select "HTTPS" and copy the URL.
+- Open Git Bash and navigate to the repository where you would like to locate the cloned repository.
+- Type "git clone" followed by the copied URL.
+- Press enter to create the clone.
+- Install required packages with the command "pip3 install -r requirements.txt"
+
+# Credits
+## Development / Code
+- Code has been taken from bootstrap and from the "I think therefore I Blog" walkthrough by code institute. This walkthrough thought me how to go about setting up a blog app.
+
+## Media
+- Images are from BBC Sport's site and all copyright and credit remaains with them for the use of these images. These images are only included for educational purposes. [BBC Sport](https://www.bbc.com/sport)
+- Icons are from [Font Awesome](https://fontawesome.com)
+- Logo created with [Designevo's Logo generator](https://www.designevo.com/apps/logo/?name=black-and-white-football-icon)
+
+
+## Acknowledgement
+- My class have been great in supporting each other during project 4 and great content and help has been posted in our slack channel and when help has been needed it has always been discussed and solutions offered.
+
+
+
+
+
 
 
 
@@ -227,8 +346,3 @@ colours used:
 #F6F2F2 (a baige colour)
 
 
-
-Images taken from BBC Sport's website. Match review content also taken from BBC sport but rewritten by myself for the purposes of this project.
-
-
-Logo created with Designevo's Logo generator at https://www.designevo.com/apps/logo/?name=black-and-white-football-icon
