@@ -168,8 +168,50 @@ Fill out this section later
 
 #######################################
 
+## Future Features
+1. _Wrtite this
+2. _Wrtite this
+3. _Write this
 
-######################################
+
+# Design
+
+Write this
+
+
+## CRUD Functionality
+
+Write this
+
+
+## Colour
+
+Write this
+
+
+## Typography
+
+Write this
+
+
+## Wireframes
+
+Using the Balsamiq software I created wireframes during the inital planning phase of this project. These were to get my design down from head to paper / screen and to see roughly what my template would look like. 
+
+
+## Agile Design Methodology
+
+[Github Projects Page]()
+
+Write this
+
+
+## Enity Relationship Diagram
+
+Using [diagrams.net](https://www.diagram.net) enity diagrams for this project were created. They were neccessary for understanding the relationshipsin the project between modals.
+
+
+
 
 # Technologies Used
 
