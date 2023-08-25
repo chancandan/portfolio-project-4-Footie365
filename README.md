@@ -154,7 +154,7 @@ When the user is finished on the site they can choose to log themselves out of t
 
 ###############
 
-Fill out this section later
+Fill out this section later on 
 
 ### Create Comment
 
