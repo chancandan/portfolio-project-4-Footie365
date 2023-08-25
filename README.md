@@ -201,7 +201,7 @@ Using the Balsamiq software I created wireframes during the inital planning phas
 
 ## Agile Design Methodology
 
-[Github Projects Page]()
+[Github Projects Page](https://github.com/users/chancandan/projects/6)
 
 Write this
 
