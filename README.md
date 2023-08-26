@@ -260,12 +260,12 @@ Using the Balsamiq software I created wireframes during the inital planning phas
 
 [Github Projects Page](https://github.com/users/chancandan/projects/6)
 
-Write this
+For the planning and during the development of this website, Github Projects was to track the different user stories and monitor their progress to completion. It was hoped to have seperated The project's tasks and user stories into different epics and then completed during differnt sprints. However, life really got in the way during this project and I had to try to complete everything in one giant sprint. I do understand though, the importance of EPICs and sprints, and I did use the MOSCOW theory in my issues with must haves for the MVP, could haves for extended functionality and may haves for future stretch goals and targets.
 
 
 ## Enity Relationship Diagram
 
-Using [draw.io](https://www.drawio.com) an enity diagram was created for this project. It was an important step for understanding the relationships in the project between modals. Below is an image of this ERD.
+Using [draw.io](https://www.drawio.com) an enity relationship diagram (ERD) was created for this project. It was an important step in database design for understanding the relationships in the project between modals. Below is an image of this ERD.
 
 ![ERD](readme-docs/site-images/erd.JPG)
 
