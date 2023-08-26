@@ -4,12 +4,11 @@
 
 Each page's HTML source code was validated by being copied and pasted into validator
 
-- <details>
-<summary>Index Results</summary>
+<details>
+<summary>Home Page Results</summary>
 
-   ![Index results](readme-docs/testing/html-validation/index.jpg)
+   ![Home Page results](readme-docs/testing/validate_home_page_html.JPG)
 </details>
 
 
 
-continue this later
