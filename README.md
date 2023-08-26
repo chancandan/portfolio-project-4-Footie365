@@ -196,7 +196,64 @@ Write this
 
 ## Wireframes
 
-Using the Balsamiq software I created wireframes during the inital planning phase of this project. These were to get my design down from head to paper / screen and to see roughly what my template would look like. 
+Using the Balsamiq software I created wireframes during the inital planning phase of this project. These were to get my design down from head to paper / screen, and to see roughly what my template would look like. Below are screen shots of my wireframes created for both desktop and mobile versions before the website build.
+
+
+<summary>Home Page Wireframe</summary>
+
+![Home Page Wireframe](readme-docs/wireframes/home_page_desktop_wireframe.JPG)
+
+
+<details>
+<summary>Sign Up Desktop</summary>
+
+![Sign Up Desktop](readme-docs/wireframes/sign_up_desktop_wireframes.JPG)
+</details>
+
+<details>
+<summary>Content Page Desktop</summary>
+
+![Match Report Page Desktop](readme-docs/wireframes/match_report_desktop_wireframe.JPG)
+</details>
+
+<details>
+<summary>Sign Out Desktop</summary>
+
+![Sign Out desktop](readme-docs/wireframes/sign_out_desktop_wireframe.JPG)
+</details>
+
+
+#### Mobile Wireframes
+
+<details>
+<summary>Mobile Home Page</summary>
+
+![Mobile Home Page](readme-docs/wireframes/home_page_mobile_wireframe.JPG)
+</details>
+
+<details>
+<summary>Mobile Sign Up</summary>
+
+![Mobile Sign Up](readme-docs/wireframes/sign_up_mobile_wireframe.JPG)
+</details>
+
+<details>
+<summary>Mobile Sign In</summary>
+
+![Mobile Sign In](readme-docs/wireframes/sign_in_mobile_wireframe.JPG)
+</details>
+
+<details>
+<summary>Mobile Content Pages</summary>
+
+![Mobile Content Page](readme-docs/wireframes/content_page_mobile_wireframe.JPG)
+</details>
+
+<details>
+<summary>Mobile Sign Out</summary>
+
+![Mobile Sign Out](readme-docs/wireframes/sign_out_mobile_wireframe.JPG)
+</details>
 
 
 ## Agile Design Methodology
