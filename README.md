@@ -265,9 +265,9 @@ Write this
 
 ## Enity Relationship Diagram
 
-Using [diagrams.net](https://www.diagram.net) enity diagrams for this project were created. They were neccessary for understanding the relationshipsin the project between modals.
+Using [draw.io](https://www.drawio.com) an enity diagram was created for this project. It was an important step for understanding the relationships in the project between modals. Below is an image of this ERD.
 
-
+![ERD](readme-docs/site-images/erd.JPG)
 
 
 # Technologies Used
