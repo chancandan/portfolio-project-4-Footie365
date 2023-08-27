@@ -197,6 +197,23 @@ This passes testing because once the user writes a comment in the comment box th
 </details>
 </br>
 
+- As a Site User I can like a match report.
+
+<details>
+
+<summary>Test Results</summary>
+</br>
+</br>
+
+This passes testing because once the user clicks on the like button the heart fills in colour to indicate that it has been selected and liked. This information is then stored in the stie's database. In the bleow screenshots the status change of the like button can be seen in a before unliked state and the after liked state.
+
+![Before Like](readme-docs/testing/before_like_test.JPG)
+
+![After Like](readme-docs/testing/after_like_test.JPG)
+
+</details>
+</br>
+
 
 ## Browser Compatibility
 
