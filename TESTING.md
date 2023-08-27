@@ -91,24 +91,38 @@ The first initial testing was not bad. Best practices and accessibility scored r
 
 ## Manual Testing
 
+Behaviour Driven Development (BDD), is a process used to test user stories in a non-technical way, meaning any user can test an app's or website's features.
+
 ### User Story Testing
 
+- As a Site User I can visit the homepage where I can see the website's function and be encouraged to register
+
+<details>
+<summary>Results of Test</summary>
 
 
+The register link / button is clearly visible and the website's goal is conveyed by the nature of the featured images on the homepage, as well as the logo. Therefore, this passes its test.
 
+![Home](readme-docs/testing/first_user_story_test.JPG)
 
 
 
 ## Browser Compatibility
-The website was tested on:
-- Chrome Version 106.0.5249.119
-- Firefox Version 106.0.1
-- Edge Version 106.0.1370.52
-- Safari iOS Version 15.6.1
+
+Footie365 was tested on the following broswers and without any issues;
+
+- Chrome 
+- Firefox 
+- Edge 
+- Safari 
 
 
 ## Bugs
 
+
+
+
+:arrow_left: [Return to README document](README.md)
 
 
 
