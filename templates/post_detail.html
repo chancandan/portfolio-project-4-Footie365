@@ -13,9 +13,9 @@
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "placeholder" in post.featured_image.url %}
-                <img src="https://res.cloudinary.com/dbcrbsqw1/image/upload/v1692914947/404_image__j4qmfh.jpg" width="100">
+                <img src="https://res.cloudinary.com/dbcrbsqw1/image/upload/v1692914947/404_image__j4qmfh.jpg" width="100" alt="placeholder image">
                 {% else %}
-                <img src=" {{ post.featured_image.url }}" width="100%">
+                <img src=" {{ post.featured_image.url }}" width="100" alt="featured image">
                 {% endif %}
             </div>
         </div>
@@ -28,9 +28,8 @@
             <div class="card-body">
                 <!-- The post content goes inside the card-text. -->
                 <!-- Use the | safe filter inside the template tags -->
-                <p class="card-text "><div>
+                <p class="card-text">
                     {{ post.content | safe }}
-                </div>
                 </p>
                 <div class="row">
 
