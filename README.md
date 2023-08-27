@@ -169,9 +169,11 @@ Fill out this section later on
 #######################################
 
 ## Future Features
-1. _Wrtite this
-2. _Wrtite this
-3. _Write this
+1. _For future updates to the site a proper admin panel on the site will be implemented so the user can create their own match report 
+    cards following on form their ability to create comments already.
+2. _More work will be done to the implement the colour theme further.
+3. _The like button will change to a love button and thumbs up and thumbs down icon buttons will be beside the love button so users can 
+    love a post as well as like or dislike a post. This will enable poor match reports to show negative ratings
 
 
 # Design
