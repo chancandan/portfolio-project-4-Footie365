@@ -176,7 +176,7 @@ Fill out this section later on
 
 # Design
 
-Write this
+Footie365 has a simple blog style with inspiration taken from Reddit and Pintrest. The match report cards are laid out clearly and and it's very intutive for the user to grasp how to use the site right away after landing on the home page. There are no distractions, just the information on a clear display. Once the user is signed in the functionality is straight forward to owing to the simple design.
 
 
 ## CRUD Functionality
@@ -186,7 +186,13 @@ Write this
 
 ## Colour
 
-Write this
+- After digging around trying to find a suitable colour theme I found one that I felt fitted what the goal of this project was. The colour theme is from Shutter Stock and can be found here [Colour Theme](https://www.shutterstock.com/blog/sports-color-palettes-branding-marketing)
+
+</br>
+
+![Colour Theme](readme-docs/site-images/colour_theme.JPG)
+
+</br>
 
 
 ## Typography
