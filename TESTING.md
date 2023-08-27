@@ -241,7 +241,7 @@ Footie365 was tested on the following broswers and without any issues;
 
 ## Bugs
 
-
+No major bugs were found during the development of this website, probably due to it's simplicity. Small minor bugs were of course found and fixed such as stray "/" symbols in code, python line breaks needed to shorten lines etc. All of these were quickly and easily fixed.
 
 
 :arrow_left: [Return to README document](README.md)

@@ -6,13 +6,12 @@ Visitors to the site can read the reviews and there is a call to action with the
 
 Users already registered can login upon landing on the homepage, which is a tidy grid of "match cards", containing a title and in some reports a sub-title underneath. The user can click to take them into the full macth report page where they have a form on the page to leave their comment. It is also where the user can like or unlike a match report. The User can create a comment, read other comments and the report, after liking a post if the user decides they've changed their mind they can update their like by unlikng a post.
 
-************
-Insert my mock up pic here last minute
+Footie365's live site can be found here : [Footie365](https://https://footie365-3519eaeedcde.herokuapp.com/)
 
+</br>
 
-*********
+![Footie365](readme-docs/site-images/finished_site.JPG)
 
-Footie365's live sit can be found here : [Footie365](https://https://footie365-3519eaeedcde.herokuapp.com/)
 
 # Table of Contents
 - [User Experience](#user-experience)
@@ -36,6 +35,8 @@ Footie365's live sit can be found here : [Footie365](https://https://footie365-3
 - As a Site User I can Log Out meaning someone else log in on my computer, change accounts or leave myself signed out on public devices
 - As a Site User I can view the Home page when logged in so that I can view recent match reports
 - As a Site User I can navigate betweens the different pages of blog reports
+- As a Site User I can can create comments on various blog reports
+- As a Site User I can like and unlike blog reports
 
 - As a Site Administrator I can view administrator features so that I can add, edit and remove match reportson  the site
 - As a Site Administrator I can view the blog CRUD forms so that I can create, add, edit and remove reports from the site
@@ -69,7 +70,7 @@ The logo can also be seen on the navbar and when clicked from any part of the si
 <details>
 <summary>Footer</summary>
 
-![Footer](readme-docs/site-images/footer.jpg)
+![Footer](readme-docs/site-images/footer.JPG)
 </details>
 
 
@@ -83,13 +84,13 @@ Just like the navbar, the footer is featured across all of the site's pages. It 
 <details>
 <summary>Home Page Unregistered</summary>
 
-![Index Page](readme-docs/site-images/index.jpg)
+![Index Page](readme-docs/site-images/home.JPG)
 </details>
 
 <details>
 <summary>Home Page Logged In</summary>
 
-![Index Page](readme-docs/site-images/home.png)
+![Index Page](readme-docs/site-images/index.JPG)
 </details>
 
 Depending on the type of user viewing the index page it can have two different states (Logged in / Logged Out).
@@ -103,7 +104,7 @@ All of these pages as well as the home page are responsive and will displays dif
 <details>
 <summary>Match Reports</summary>
 
-![Match Reports](readme-docs/site-images/matchreports.jpg)
+![Match Reports](readme-docs/site-images/matchreport.JPG)
 </details>
 
 When a iser clicks ona  match title on the home page they will be taken to a new page with the full blog report write up for that specific game. 
@@ -118,7 +119,7 @@ These pages are also repsonsive and will change to suit the user's device screen
 <details>
 <summary>Registration Page</summary>
 
-![Registration](readme-docs/site-images/signup.jpg)
+![Registration](readme-docs/site-images/signup.JPG)
 </details>
 
 Through the call to action 'Sign Up' link on the navbar users can access the registration page, where they can create an account. The sign up form has been kept as simple as possible so as not to discourage users from signing up. The user is asked to create a username, a password which they must repeat to make sure they have entered it correctly, and also an optional email address.
@@ -130,14 +131,20 @@ When a user creates an account they are automatically taken to thehome page wher
 <details>
 <summary>Login Page</summary>
 
-![Login](readme-docs/site-images/sign.jpg)
+![Login](readme-docs/site-images/signin.JPG)
 </details>
 
 The user can find the log in page by clicking the link in the navbar. The user will be presented with a simple form requesting their username and password.
 
+
+### Sign Out Page
+
+<details>
+<summary>Sign Out Page</summary>
+
 After the user successfully logs in they will be taken back to the index page again where they can choose which match report blog they would like to view.
 
-![Logout](readme-docs/site-images/logout.jpg)
+![Logout](readme-docs/site-images/signout.JPG)
 </details>
 
 When the user is finished on the site they can choose to log themselves out of the site with the call to action link button on the navbar "log out". This will bring the user to a log out form where after logging out successfully they will be once again brought back to the home page.
@@ -149,24 +156,32 @@ When the user is finished on the site they can choose to log themselves out of t
 <details>
 <summary>Admin Panel</summary>
 
-![Admin Panel](readme-docs/site-images/adminpanel.jpg)
+- From within the admin panel the administrator is able to create, update and delete match reports.
+
+![Admin Panel](readme-docs/testing/admin_panel.JPG)
 </details>
 
-###############
+<details>
+<summary>Admin Approve Comments</summary>
 
-Fill out this section later on 
+- The administrator can also approve pending comments created by registered user of the site as seen below.
+
+![Admin Approve Comments](readme-docs/testing/admin_approve_comments.JPG)
+</details>
+
+
 
 ### Create Comment
 
 <details>
 <summary>Create Comment</summary>
 
-![Create Meal](readme-docs/site-images/create-comment.png)
+- The user can create a comment in the input text field as seen below and then click the submit button to send the comment for the administrator's approval.
+
+![Create Meal](readme-docs/site-images/create_comment.JPG)
 </details>
 
 
-
-#######################################
 
 ## Future Features
 1. _For future updates to the site a proper admin panel on the site will be implemented so the user can create their own match report 
@@ -183,12 +198,20 @@ Footie365 has a simple blog style with inspiration taken from Reddit and Pintres
 
 ## CRUD Functionality
 
-Write this
+- The user once registered can create a comment
+- Any user can read all match reports
+- The user can update their account with likes by clicking the like button a report
+- The user can later delete a like from a blog post if they change their mind
 
 
 ## Colour
 
-- After digging around trying to find a suitable colour theme I found one that I felt fitted what the goal of this project was. The colour theme is from Shutter Stock and can be found here [Colour Theme](https://www.shutterstock.com/blog/sports-color-palettes-branding-marketing)
+- After digging around trying to find a suitable colour theme I found one that I felt fitted what the goal of this project was. The colour theme is from Shutter Stock and can be found here [Colour Theme](https://www.shutterstock.com/blog/sports-color-palettes-branding-marketing). Colours used:
+
+- #97FB57 (a bright green) 
+- #121212 (a dark grey / light black) 
+- #909090 (a grey) 
+- #F6F2F2 (a baige colour)
 
 </br>
 
@@ -297,7 +320,7 @@ Using [draw.io](https://www.drawio.com) an enity relationship diagram (ERD) was 
 - [Font Awesome](https://fontawesome.com/): also used to import icons.
 - [Balsamiq](https://balsamiq.com/): Application used to create wireframes.
 - [Diagrams.net](https://www.diagrams.net/): used for Entity Relationship Diagram.
-- [Greenshot](https://getgreenshot.org/): used for screenshots used in this readme. 
+- [Snipping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b): used for screenshots used in this readme. 
 
 # Testing
 
@@ -432,24 +455,5 @@ Footie365's live site can be found here: [Footie365](https://footie365-3519eaeed
 
 ## Acknowledgement
 - My class have been great in supporting each other during project 4 and great content and help has been posted in our slack channel and when help has been needed it has always been discussed and solutions offered.
-
-
-
-
-
-
-
-
-#########################################################
-
-
-Colour theme is from shutterstock
-https://www.shutterstock.com/blog/sports-color-palettes-branding-marketing
-colours used:
-
-#97FB57 (a bright green)
-#121212 (a dark grey / light black)
-#909090 (a grey)
-#F6F2F2 (a baige colour)
 
 
