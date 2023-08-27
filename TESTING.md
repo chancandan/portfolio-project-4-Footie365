@@ -94,6 +94,7 @@ The first initial testing was not bad. Best practices and accessibility scored r
 Behaviour Driven Development (BDD), is a process used to test user stories in a non-technical way, meaning any user can test an app's or website's features.
 
 ### User Story Testing
+</br>
 
 - As a Site User I can visit the homepage where I can see the website's function and be encouraged to register
 
@@ -107,7 +108,7 @@ The register link / button is clearly visible and the website's goal is conveyed
 ![Home](readme-docs/testing/first_user_story_test.JPG)
 
 </details>
-
+</br>
 
 - As a Site User, I can sign up to register for an account, so that I can sign in to gain access to the website's features
 
@@ -121,7 +122,7 @@ This passes testing because the registration form is clear,easily accessible and
 ![Register](readme-docs/testing/registration_form.JPG)
 
 </details>
-
+</br>
 
 - As a Site User I can sign in to my account so that I can gain access to the app'ss features
 
@@ -134,7 +135,7 @@ This passes the testing because the sign in form is clear, easy to access and on
 ![Sign In](readme-docs/testing/sign_in_test.JPG)
 
 </details>
-
+</br>
 
 - As a Site User I can Sign Out so that I can leave myself signed out on public spaces, change accounts or allow someone else sign in on the same device. 
 
@@ -147,7 +148,7 @@ This passes its test because the sign out function is accessible, easy to find a
 ![Sign Out](readme-docs/testing/sign_out_test.JPG)
 
 </details>
-
+</br>
 
 - As a Site User I can navigate to and view the Home page when signed in so that I can choose a match report to read.
 
@@ -160,7 +161,20 @@ This passes testing because you are automatically redirected to the Home page af
 ![Index](readme-docs/testing/index_test.JPG)
 
 </details>
+</br>
 
+- As a Site User I can hover over a match report, click it and be brought to that match report view page where I can read the full report.
+
+<details>
+
+<summary>Test Results</summary>
+
+This passes testing because when the user hovers over the match report title the colour changes on hover to a darker shade of black. Once clicked the user is brought to the match report view page.
+
+![Hover](readme-docs/testing/match_report_hover.JPG)
+![Match](readme-docs/testing/match_report_view page.JPG)
+
+</details>
 
 
 ## Browser Compatibility
