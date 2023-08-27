@@ -178,6 +178,24 @@ This passes testing because when the user hovers over the match report title the
 ![Match](readme-docs/testing/match_report_view_page.JPG)
 
 </details>
+</br>
+
+- As a Site User I can create a comment in the comment box. 
+
+<details>
+
+<summary>Test Results</summary>
+</br>
+</br>
+
+This passes testing because once the user writes a comment in the comment box they can create it by clicking on the submit button underneath. When complete a message pops up to tell the user that their user is awating approval. This helps to moderate the site's comemnts created by users.
+
+![Create Comment](readme-docs/testing/leave_comment_test.JPG)
+
+![Comment Approval](readme-docs/testing/comment_awaiting_approval.JPG)
+
+</details>
+</br>
 
 
 ## Browser Compatibility
