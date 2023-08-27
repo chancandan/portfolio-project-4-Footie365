@@ -44,6 +44,16 @@ JSHint was used for validating the JavaScript for the modals.
 Using Code Institute's own Python Linter, this project's code has been checked to make sure it is up to Pep8's python code guidelines.. [CI Python Linter8](https://pep8ci.herokuapp.com/) 
 
 
+<summary>Before linter Validation</summary>
+
+   ![Sign In Validation](readme-docs/testing/python_linter_before.JPG)
+
+
+   <summary>After Linter  Validation</summary>
+
+   ![Sign In Validation](readme-docs/testing/python_linter_after.JPG)
+
+
 
 
 
