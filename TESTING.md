@@ -61,12 +61,14 @@ Using Code Institute's own Python Linter, this project's code has been checked t
 
 ## Lighthouse
 
-The site was tested using Lighthouse in Chrome DevTools to check performance, accessibiltiy, best practices and SEO. The final testing on Lighthouse was run on incognito mode. The results are below.
+Inside Google Chrome's DevTools I used Lighthouse to check the website's performance, SEO, best practices and accessibility.Below are some screenshots of Footie365's performance results.
 
 <details>
-<summary>Index - Not Logged In</summary>
+<summary>Home Page - Not Signed In</summary>
 
-![Index - Not logged in](readme-docs/lighthouse/index.png)
+The first initial testing was not bad. Best practices and accessibility scored really well. SEO wasn't bad but could be improved upon, however, this has not been covered in the course yet so it will have to go into a could-do issue for the site's development. Performance is just about adequate and will need looking at provided there is time before the project's MVP deadline. Given more time I'm confident I can increase the performance of the site. For now as a MVP this score isn't bad.
+
+![Home Page - Not signed in](readme-docs/lighthouse/home_page_not_signed_in_lighthouse)
 </details>
 
 <details>
