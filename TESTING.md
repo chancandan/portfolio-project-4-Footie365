@@ -168,11 +168,14 @@ This passes testing because you are automatically redirected to the Home page af
 <details>
 
 <summary>Test Results</summary>
+</br>
+</br>
 
-This passes testing because when the user hovers over the match report title the colour changes on hover to a darker shade of black. Once clicked the user is brought to the match report view page.
+This passes testing because when the user hovers over the match report title the colour changes on hover to a darker shade of black. Once clicked the user is brought to the match report view page. These actions can both be seen in the below screenshots.
 
 ![Hover](readme-docs/testing/match_report_hover.JPG)
-![Match](readme-docs/testing/match_report_view page.JPG)
+
+![Match](readme-docs/testing/match_report_view_page.JPG)
 
 </details>
 
