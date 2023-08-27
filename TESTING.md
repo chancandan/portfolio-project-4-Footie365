@@ -49,9 +49,60 @@ Using Code Institute's own Python Linter, this project's code has been checked t
    ![Sign In Validation](readme-docs/testing/python_linter_before.JPG)
 
 
+
+
    <summary>After Linter  Validation</summary>
 
+
+
+
    ![Sign In Validation](readme-docs/testing/python_linter_after.JPG)
+
+
+## Lighthouse
+
+The site was tested using Lighthouse in Chrome DevTools to check performance, accessibiltiy, best practices and SEO. The final testing on Lighthouse was run on incognito mode. The results are below.
+
+<details>
+<summary>Index - Not Logged In</summary>
+
+![Index - Not logged in](readme-docs/lighthouse/index.png)
+</details>
+
+<details>
+<summary>Home - Index Logged In</summary>
+
+![Home](readme-docs/lighthouse/home.png)
+</details>
+
+<details>
+<summary>Mls</summary>
+
+![My Meals](readme-docs/lighthouse/mymeals.png)
+</details>
+
+<details>
+<summary>Admin Panel</summary>
+
+![Admin Panel](readme-docs/lighthouse/adminpanel.png)
+</details>
+
+<details>
+<summary>Login</summary>
+
+![Login](readme-docs/lighthouse/signin.png)
+</details>
+
+<details>
+<summary>Signup</summary>
+
+![Signup](readme-docs/lighthouse/signup.png)
+</details>
+
+
+## Manual Testing
+
+### User Story Testing
 
 
 
