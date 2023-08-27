@@ -63,48 +63,51 @@ Using Code Institute's own Python Linter, this project's code has been checked t
 
 Inside Google Chrome's DevTools I used Lighthouse to check the website's performance, SEO, best practices and accessibility.Below are some screenshots of Footie365's performance results.
 
-<details>
 <summary>Home Page - Not Signed In</summary>
 
 The first initial testing was not bad. Best practices and accessibility scored really well. SEO wasn't bad but could be improved upon, however, this has not been covered in the course yet so it will have to go into a could-do issue for the site's development. Performance is just about adequate and will need looking at provided there is time before the project's MVP deadline. Given more time I'm confident I can increase the performance of the site. For now as a MVP this score isn't bad.
 
-![Home Page - Not signed in](readme-docs/lighthouse/home_page_not_signed_in_lighthouse)
+![Home Page - Not signed in](readme-docs/lighthouse/home_page_not_signed_in_lighthouse.JPG)
 </details>
 
 <details>
-<summary>Home - Index Logged In</summary>
+<summary>Sign Up Page</summary>
 
-![Home](readme-docs/lighthouse/home.png)
+![Sign Uo Page Lighthouse](readme-docs/lighthouse/sign_up_lighthouse.JPG)
 </details>
 
 <details>
-<summary>Mls</summary>
+<summary>Sign In Page</summary>
 
-![My Meals](readme-docs/lighthouse/mymeals.png)
+![Sign In Page Lighthouse](readme-docs/lighthouse/sign_in_lighthouse.JPG)
 </details>
 
 <details>
-<summary>Admin Panel</summary>
+<summary>Sign Out Page</summary>
 
-![Admin Panel](readme-docs/lighthouse/adminpanel.png)
-</details>
-
-<details>
-<summary>Login</summary>
-
-![Login](readme-docs/lighthouse/signin.png)
-</details>
-
-<details>
-<summary>Signup</summary>
-
-![Signup](readme-docs/lighthouse/signup.png)
+![Sign Out Page](readme-docs/lighthouse/sign_out_page.JPG)
 </details>
 
 
 ## Manual Testing
 
 ### User Story Testing
+
+
+
+
+
+
+
+## Browser Compatibility
+The website was tested on:
+- Chrome Version 106.0.5249.119
+- Firefox Version 106.0.1
+- Edge Version 106.0.1370.52
+- Safari iOS Version 15.6.1
+
+
+## Bugs
 
 
 
