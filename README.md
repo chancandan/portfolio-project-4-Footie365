@@ -191,7 +191,7 @@ Write this
 
 ## Typography
 
-Write this
+The "Lato" font from google font is used in this site as well as "Roboto".
 
 
 ## Wireframes
