@@ -214,6 +214,20 @@ This passes testing because once the user clicks on the like button the heart fi
 </details>
 </br>
 
+- As a Site Administrator I can view the administrator features panel so that I can create, add, edit or update and delete match reports to and from the website.
+
+<details>
+
+<summary>Test Results</summary>
+
+This passes the testing because visiting the administrator site brings up a list of the match comments to review, with all CRUD functionality provided.
+
+![Admin Panel](readme-docs/testing/admin_panel.JPG)
+
+![Admin Approve Comments](readme-docs/testing/admin_approve_comments.JPG)
+
+</details>
+
 
 ## Browser Compatibility
 
