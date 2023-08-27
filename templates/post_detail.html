@@ -13,9 +13,9 @@
             <div class="d-none d-md-block col-md-6 masthead-image">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "placeholder" in post.featured_image.url %}
-                <img src="https://res.cloudinary.com/dbcrbsqw1/image/upload/v1692914947/404_image__j4qmfh.jpg" width="100" alt="placeholder image">
+                <img src="https://res.cloudinary.com/dbcrbsqw1/image/upload/v1692914947/404_image__j4qmfh.jpg" width="100%" alt="placeholder image">
                 {% else %}
-                <img src=" {{ post.featured_image.url }}" width="100" alt="feature image">
+                <img src=" {{ post.featured_image.url }}" width="100%" alt="feature image">
                 {% endif %}
             </div>
         </div>
@@ -30,11 +30,11 @@
                 <!-- Use the | safe filter inside the template tags -->
                 <p class="card-text">
                     {{ post.content | safe }}
-                
+                </p>
                 <div class="row">
 
                     <div class="col-1">
-                      
+                        <strong>
                             {% if user.is_authenticated %}
                             <form class="d-inline" action="{% url 'post_like' post.slug %}" method="POST">
                                 {% csrf_token %}
@@ -55,7 +55,7 @@
                         {% with comments.count as total_comments %}
                         <strong class="text-secondary"><i class="far fa-comments"></i>
                             <!-- Our total_comments variable goes before the closing strong tag -->
-                            {{ total_comments }}
+                            {{ total_comments }}</strong>
                         {% endwith %}
                     </div>
                 </div>
