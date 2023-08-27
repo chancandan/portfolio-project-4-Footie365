@@ -98,12 +98,40 @@ Behaviour Driven Development (BDD), is a process used to test user stories in a 
 - As a Site User I can visit the homepage where I can see the website's function and be encouraged to register
 
 <details>
-<summary>Results of Test</summary>
+
+<summary>Test Results</summary>
 
 
 The register link / button is clearly visible and the website's goal is conveyed by the nature of the featured images on the homepage, as well as the logo. Therefore, this passes its test.
 
 ![Home](readme-docs/testing/first_user_story_test.JPG)
+
+</details>
+
+- As a Site User, I can sign up to register for an account, so that I can sign in to gain access to the website's features
+
+<details>
+
+<summary>Test Results</summary>
+
+
+This passes testing because the registration form is clear,easily accessible and it is easy to understand..
+
+![Register](readme-docs/testing/registration_form.JPG)
+
+</details>
+
+- As a Site User I can sign in to my account so that I can gain access to the app'ss features
+
+<details>
+
+<summary>Test Results</summary>
+
+This passes the testing because the sign in form is clear, easy to access and only requires 2 credentals. 
+
+![Sign In](readme-docs/testing/sign_in_test)
+
+</details>
 
 
 
