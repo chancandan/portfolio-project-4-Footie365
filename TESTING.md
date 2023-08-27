@@ -85,7 +85,7 @@ The first initial testing was not bad. Best practices and accessibility scored r
 <details>
 <summary>Sign Out Page</summary>
 
-![Sign Out Page](readme-docs/lighthouse/sign_out_page.JPG)
+![Sign Out Page](readme-docs/lighthouse/sign_out_lighthouse.JPG)
 </details>
 
 
@@ -108,6 +108,7 @@ The register link / button is clearly visible and the website's goal is conveyed
 
 </details>
 
+
 - As a Site User, I can sign up to register for an account, so that I can sign in to gain access to the website's features
 
 <details>
@@ -121,6 +122,7 @@ This passes testing because the registration form is clear,easily accessible and
 
 </details>
 
+
 - As a Site User I can sign in to my account so that I can gain access to the app'ss features
 
 <details>
@@ -129,7 +131,33 @@ This passes testing because the registration form is clear,easily accessible and
 
 This passes the testing because the sign in form is clear, easy to access and only requires 2 credentals. 
 
-![Sign In](readme-docs/testing/sign_in_test)
+![Sign In](readme-docs/testing/sign_in_test.JPG)
+
+</details>
+
+
+- As a Site User I can Sign Out so that I can leave myself signed out on public spaces, change accounts or allow someone else sign in on the same device. 
+
+<details>
+
+<summary>Test Results</summary>
+
+This passes its test because the sign out function is accessible, easy to find and easy to comprehend.
+
+![Sign Out](readme-docs/testing/sign_out_test.JPG)
+
+</details>
+
+
+- As a Site User I can navigate to and view the Home page when signed in so that I can choose a match report to read.
+
+<details>
+
+<summary>Test Results</summary>
+
+This passes testing because you are automatically redirected to the Home page after signing in and also always have the option of clicking the Footie365 logo or the "Home" option on the navbar to get there. Once there the user can choose which match report they would live to read.
+
+![Index](readme-docs/testing/index_test.JPG)
 
 </details>
 
