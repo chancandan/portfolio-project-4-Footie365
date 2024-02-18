@@ -94,18 +94,3 @@ class PostCreate(CreateView):
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
-
-
-@login_required
-def post_create(request):
-    if request.method == 'POST':
-        form = PostForm(request.POST)
-        if form.is_valid():
-            post = form.save(commit=False)
-            post.author = request.user
-            post.save()
-            return redirect('home')
-    else:
-        form = PostForm()
-
-    return render(request, 'your_template_name/post_create.html', {'form': form})
