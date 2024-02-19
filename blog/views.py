@@ -94,3 +94,23 @@ class PostCreate(CreateView):
     def form_valid(self, form):
         form.instance.author = self.request.user
         return super().form_valid(form)
+
+
+@method_decorator(login_required, name = 'dispatch')
+class PostUpdate(UpdateView):
+    model = Postform_class = PostForm
+    template_name = 'post_update.html'
+    success_url = reverse_lazy('home')
+
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        return super().form_valid(form)
+
+
+@method_decorator(login_required, name='dispatch')
+class PostDelete(DeleteView):
+    model = Post
+    template_name = 'post_confirm_delete.html'
+    success_url = reverse_lazy('home')
+
+
