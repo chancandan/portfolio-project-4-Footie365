@@ -34,7 +34,7 @@ DEBUG = False
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = [
-    '8000-chancandan-portfoliopro-k67yviaamsh.ws-eu104.gitpod.io',
+    '8000-chancandan-portfoliopro-e4crmdykqvm.ws-eu108.gitpod.io',
     'footie365-3519eaeedcde.herokuapp.com',
     'localhost',
 ]
