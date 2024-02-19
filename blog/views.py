@@ -1,6 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
-from django.views.generic.edit import CreateView
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
 from django.http import HttpResponseRedirect
@@ -98,7 +98,8 @@ class PostCreate(CreateView):
 
 @method_decorator(login_required, name = 'dispatch')
 class PostUpdate(UpdateView):
-    model = Postform_class = PostForm
+    model = Post
+    form_class = PostForm
     template_name = 'post_update.html'
     success_url = reverse_lazy('home')
 
