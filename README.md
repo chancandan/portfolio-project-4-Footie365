@@ -198,10 +198,10 @@ Footie365 has a simple blog style with inspiration taken from Reddit and Pintres
 
 ## CRUD Functionality
 
-- The user once registered can create a comment
+- The user once registered can create their own posts and comments to posts.
 - Any user can read all match reports
-- The user can update their account with likes by clicking the like button a report
-- The user can later delete a like from a blog post if they change their mind
+- The user can update or edit any previous posts which they have already created.
+- The user can later delete a previous posts of theirs.
 
 
 ## Colour
