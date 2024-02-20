@@ -204,6 +204,19 @@ Footie365 has a simple blog style with inspiration taken from Reddit and Pintres
 - The user can later delete a previous posts of theirs.
 
 
+![Crud Create Post](readme-docs/site-images/create_post.JPG)
+
+![Crud Delete Edit Buttons](readme-docs/site-images/delete_edit_buttons.JPG)
+
+![Crud Edit Post](readme-docs/site-images/edit_post.JPG)
+
+![Crud Update Button](readme-docs/site-images/update_button.JPG)
+
+![Crud Confirm Delete Post](readme-docs/site-images/confirm_delete_post.JPG)
+
+
+
+
 ## Colour
 
 - After digging around trying to find a suitable colour theme I found one that I felt fitted what the goal of this project was. The colour theme is from Shutter Stock and can be found here [Colour Theme](https://www.shutterstock.com/blog/sports-color-palettes-branding-marketing). Colours used:
