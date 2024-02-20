@@ -178,7 +178,7 @@ When the user is finished on the site they can choose to log themselves out of t
 
 - The user can create a comment in the input text field as seen below and then click the submit button to send the comment for the administrator's approval.
 
-![Create Meal](readme-docs/site-images/create_comment.JPG)
+![Create Comment](readme-docs/site-images/create_comment.JPG)
 </details>
 
 
