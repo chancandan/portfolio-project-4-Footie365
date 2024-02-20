@@ -30,19 +30,26 @@
 <body class="d-flex flex-column h-100 main-bg">
 
     <!-- Navigation -->
-
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
+            <!-- Logo -->
             <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'images/logo.jpg' %}" alt="Footie365 Logo" height="60"></a>
+
+            <!-- Navbar Toggle Button for Small Screens -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+            <!-- Navbar Links -->
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <!-- Home Link -->
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
                     </li>
+
+                    <!-- Conditional Links based on User Authentication -->
                     {% if user.is_authenticated %}
 
                     <li class="nav-item">
@@ -68,6 +75,7 @@
         </div>
     </nav>
 
+    <!-- Flash Messages Container -->
     <div class="container">
         <div class="row">
             <div class="col-md-8 offset-md-2">
@@ -81,6 +89,7 @@
         </div>
     </div>
 
+    <!-- Main Content Area -->
     <main class="flex-shrink-0 main-bg">
         {% block content %}
         <!-- Content Goes here -->
@@ -106,6 +115,7 @@
     </p>
 </footer>
     
+    <!-- Bootstrap Alert Closure Script -->
     <script>
         setTimeout(function () {
             let messages = document.getElementById('msg');
