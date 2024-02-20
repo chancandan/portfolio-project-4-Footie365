@@ -2,11 +2,18 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
+    <!-- Container for the edit post form -->
     <div class="container mt-5">
         <h2>Edit Post</h2>
+
+        <!-- Form for updating a post -->
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
+
+            <!-- Render the form using crispy forms for better styling -->
             {{ form | crispy }}
+
+            <!-- Submit button to update the post -->
             <button type="submit" class="btn btn-primary">Update Post</button>
         </form>
     </div>
