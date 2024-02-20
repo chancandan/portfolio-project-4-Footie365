@@ -9,6 +9,7 @@ from .models import Post
 from .forms import CommentForm, PostForm
 
 
+# View for displaying a list of published posts
 class PostList(generic.ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
@@ -16,6 +17,7 @@ class PostList(generic.ListView):
     paginate_by = 6
 
 
+# View for displaying the details of a post, including comments and likes
 class PostDetail(View):
 
     def get(self, request, slug, *args, **kwargs):
@@ -73,6 +75,7 @@ class PostDetail(View):
         )
 
 
+# View for handling post likes
 class PostLike(View):
     
     def post(self, request, slug, *args, **kwargs):
@@ -84,6 +87,8 @@ class PostLike(View):
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug])) 
 
+
+# View for creating a new post (requires login)
 @method_decorator(login_required, name='dispatch')
 class PostCreate(CreateView):
     model = Post
@@ -96,6 +101,7 @@ class PostCreate(CreateView):
         return super().form_valid(form)
 
 
+# View for updating an existing post (requires login)
 @method_decorator(login_required, name = 'dispatch')
 class PostUpdate(UpdateView):
     model = Post
@@ -108,6 +114,7 @@ class PostUpdate(UpdateView):
         return super().form_valid(form)
 
 
+# View for deleting an existing post (requires login)
 @method_decorator(login_required, name='dispatch')
 class PostDelete(DeleteView):
     model = Post
