@@ -6,7 +6,7 @@ Visitors to the site can read the reviews and there is a call to action with the
 
 Users already registered can login upon landing on the homepage, which is a tidy grid of "match cards", containing a title and in some reports a sub-title underneath. The user can click to take them into the full macth report page where they have a form on the page to leave their comment. It is also where the user can like or unlike a match report. The User can create a comment, read other comments and the report, after liking a post if the user decides they've changed their mind they can update their like by unlikng a post.
 
-Footie365's live site can be found here : [Footie365](https://https://footie365-3519eaeedcde.herokuapp.com/)
+Footie365's live site can be found here : [Footie365](https://footie365-3519eaeedcde.herokuapp.com/)
 
 </br>
 
