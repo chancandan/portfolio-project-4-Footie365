@@ -34,7 +34,7 @@ DEBUG = os.environ.get('DEBUG')
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = [
-    '8000-chancandan-portfoliopro-e4crmdykqvm.ws-eu108.gitpod.io',
+    '8000-chancandan-portfoliopro-r44ewe0yd2k.ws-eu115.gitpod.io',
     'footie365-3519eaeedcde.herokuapp.com',
     'localhost',
 ]

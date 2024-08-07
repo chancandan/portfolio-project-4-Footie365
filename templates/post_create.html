@@ -1,7 +1,6 @@
 {% extends 'base.html' %}
 {% load crispy_forms_tags %}
 
-
 {% block content %}
     <!-- Container for the create post form -->
     <div class="container mt-5">
@@ -14,7 +13,17 @@
             {% csrf_token %}
 
             <!-- Render the form using crispy forms for better styling -->
-            {{ form | crispy }}
+            {{ form|crispy }}
+
+            <!-- Dropdown for selecting a category -->
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select class="form-control" id="category" name="category">
+                    {% for category in categories %}
+                        <option value="{{ category.id }}">{{ category.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
 
             <!-- Submit button to create a new post -->
             <button type="submit" class="btn btn-primary">Submit</button>

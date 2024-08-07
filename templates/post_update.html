@@ -13,6 +13,16 @@
             <!-- Render the form using crispy forms for better styling -->
             {{ form | crispy }}
 
+            <!-- Dropdown for selecting a category -->
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select class="form-control" id="category" name="category">
+                    {% for category in categories %}
+                        <option value="{{ category.id }}" {% if category.id == form.instance.category.id %}selected{% endif %}>{{ category.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
             <!-- Submit button to update the post -->
             <button type="submit" class="btn btn-primary">Update Post</button>
         </form>

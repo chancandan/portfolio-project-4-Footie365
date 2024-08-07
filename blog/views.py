@@ -5,7 +5,7 @@ from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
 from django.http import HttpResponseRedirect
 from django.urls import reverse_lazy
-from .models import Post
+from .models import Post, Category  # Import the Category model
 from .forms import CommentForm, PostForm
 
 
@@ -15,6 +15,11 @@ class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "index.html"
     paginate_by = 6
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['categories'] = Category.objects.all()  # Add categories to the context
+        return context
 
 
 # View for displaying the details of a post, including comments and likes
@@ -37,7 +42,6 @@ class PostDetail(View):
                 "commented": False,
                 "liked": liked,
                 "comment_form": CommentForm()
-
             },
         )
 
@@ -60,7 +64,6 @@ class PostDetail(View):
         else:
             comment_form = CommentForm()
 
-
         return render(
             request,
             "post_detail.html",
@@ -70,7 +73,6 @@ class PostDetail(View):
                 "commented": True,
                 "liked": liked,
                 "comment_form": CommentForm()
-
             },
         )
 
@@ -102,7 +104,7 @@ class PostCreate(CreateView):
 
 
 # View for updating an existing post (requires login)
-@method_decorator(login_required, name = 'dispatch')
+@method_decorator(login_required, name='dispatch')
 class PostUpdate(UpdateView):
     model = Post
     form_class = PostForm
@@ -120,5 +122,3 @@ class PostDelete(DeleteView):
     model = Post
     template_name = 'post_confirm_delete.html'
     success_url = reverse_lazy('home')
-
-

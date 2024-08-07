@@ -18,7 +18,7 @@
                                 <img class="card-img-top"
                                     src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" alt="placeholder football picture">
                                 {% else %}
-                                <img class="card-img-top" src=" {{ post.featured_image.url }}" alt="football match picture">
+                                <img class="card-img-top" src="{{ post.featured_image.url }}" alt="football match picture">
                                 {% endif %}
                                 <!-- Flash message with author information -->
                                 <div class="image-flash">
@@ -32,8 +32,10 @@
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
                             <hr>
+                            <!-- Display the category name -->
+                            <p class="card-text text-muted">Category: {{ post.category.name }}</p>
                             <!-- Post creation date and number of likes -->
-                            <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
+                            <p class="card-text text-muted h6">{{ post.created_on }} <i class="far fa-heart"></i>
                                 {{ post.number_of_likes }}</p>
                         </div>
                     </div>
@@ -63,4 +65,4 @@
     </nav>
     {% endif %}
 </div>
-{%endblock%}
+{% endblock %}
