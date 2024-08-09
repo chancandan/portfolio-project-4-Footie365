@@ -3,6 +3,7 @@ from .models import Post, Comment, Category
 from django_summernote.admin import SummernoteModelAdmin
 
 
+
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('name', 'created_on')

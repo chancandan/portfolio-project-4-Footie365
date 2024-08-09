@@ -5,6 +5,7 @@ from cloudinary.models import CloudinaryField
 # Choices for post status (Draft or Published)
 STATUS = ((0, "Draft"), (1, "Published"))
 
+# NBew Category Model
 class Category(models.Model):
     name = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
