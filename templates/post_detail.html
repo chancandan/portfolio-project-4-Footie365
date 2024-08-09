@@ -15,7 +15,7 @@
                 {% if "placeholder" in post.featured_image.url %}
                 <img src="https://res.cloudinary.com/dbcrbsqw1/image/upload/v1692914947/404_image__j4qmfh.jpg" width="100" alt="placeholder image">
                 {% else %}
-                <img src=" {{ post.featured_image.url }}" width="100" alt="feature image">
+                <img src=" {{ post.featured_image.url }}" width="100%" alt="feature image">
                 {% endif %}
             </div>
         </div>
